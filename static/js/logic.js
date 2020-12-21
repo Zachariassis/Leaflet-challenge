@@ -51,8 +51,8 @@ d3.json(link, function(data) {
             color: 'black',
             fillColor: color,
             weight: .4,
-            fillOpacity: 0.85,
-            radius: 10000*mag
+            fillOpacity: 0.7,
+            radius: 5000*mag**2
             // onEachFeature: onFeature()
         }).bindPopup('Magnitude: '+ mag + '<br> Depth: ' + loc[2] + ' miles<br>Location: ' + place + '<br>Time: ' + date + ' ' + time).addTo(myMap);
     }
